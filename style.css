@@ -1,0 +1,94 @@
+body{
+    background-image: url('https://cdn.discordapp.com/attachments/1245051865737990206/1277234478602784787/image.png?ex=67a7ee8d&is=67a69d0d&hm=b343bccd30e7fbebf161e2da1e644fc7d19714a23d8015c5f663c86d6319d464&');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px 40px;
+}
+
+.logo{
+    color: aliceblue;
+    fontsize: 24px;
+    font-weight: bold;
+}
+ nav a{
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    transition: color 0.3s;
+ }
+
+ nav a:hover{
+    color: red;
+ }
+
+ .profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+
+ .foto{
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 30px;
+    box-shadow: 0 10px rgba(0, 0, 0, 1);
+ }
+
+ .me{
+   color: white;
+   font-weight: bold;
+ }
+
+ .project{
+   display: flex;
+   flex-wrap: wrap;
+   gap:20px;
+ }
+
+ .fp1{
+   margin: 20px;
+   width: 30%;
+   height: 10%;
+ }
+
+ .fp1:hover{
+   transform: translate(-5px);
+ }
+ .iproject{
+   background: white;
+   padding: 20px;
+   border-radius: 8px;
+   flex: 1;
+   min-width: 250px;
+   box-shadow: 0 2px rgba(0, 0, 0, 1);
+ }
+
+ .iproject :hover{
+   transform: translate(-5px);
+
+ }
+
+ footer{
+padding: 5px 0; 
+background: #333; 
+color: #fff; 
+position: relative; 
+bottom: 0; 
+width: 100%;
+ }
+
+
+ .tc{
+   background: white;
+   padding: 20px;
+   border-radius: 8px;
+   flex: 1;
+   min-width: 250px;
+   box-shadow: 0 2px rgba(0, 0, 0, 1);
+ }
