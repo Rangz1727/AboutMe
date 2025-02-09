@@ -107,9 +107,13 @@ width: 100%;
     width: 30%;
     }
     nav a{
-      margin: 3px;
+    margin: 1px;
+    font-size: 17px;
     }
     .judul{
-      color: white;
+    color: white;
+    }
+    .logo{
+    margin: -15px;
     }
   }
